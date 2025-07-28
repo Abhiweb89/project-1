@@ -47,13 +47,11 @@ header {
 
 /* Main */
 main {
-    padding: 60px 20px;
-    flex: 1;
-    background: url('/Sushi_replace.png') left no-repeat,
-                url('/Veggies_new.png') right no-repeat;
+    background: url('Sushi_replace.png') left center no-repeat,
+                url('Veggies_new.png') right center no-repeat;
     background-size: 300px;
-    text-align: center;
 }
+
 
 .headline {
     font-size: 32px;
