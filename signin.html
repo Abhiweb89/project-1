@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <style>
+        /* Page background and font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff512f, #7a0b0b); /* red-orange gradient */
+    color: white;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form container */
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* transparent white */
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Labels */
+label, pre {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Inputs and textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+
+/* Input and textarea hover/focus */
+input:focus, textarea:focus {
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+/* Placeholder color */
+input::placeholder, textarea::placeholder {
+    color: #888;
+}
+
+    </style>
+</head>
+<body>
+    <h1><big>Fill the form for sign in</big></h1>
+    <form action="sign in">
+        <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your First name">
+        <br>
+        <input type="text" name="name" id="name" placeholder="Enter your Middle name">
+        <br>
+        <input type="text" name="name" id="name" placeholder="Enter your Last name">
+    </div>
+    <div>
+        <label for="phone">Pnone</label>
+        <input type="tel" name="" id="phone" placeholder="Enter your phone no">
+
+        </div>
+        <div>
+            <label for="emali">Emali</label>
+            <input type="email" name="" id="email" placeholder="Enter your email">
+
+        </div>
+        <div>   
+            <label for="dob">Daet of Birth</label>
+            <input type="date" name="" id="dob" placeholder="Date of birth">
+        </div>
+        <div>
+            <pre>Adderss</pre>
+            <textarea name="" id="address" rows="3"></textarea>
+        </div>
+        <button>Submit</button>
+
+
+        
+
+    </form>
+</body>
+</html>
