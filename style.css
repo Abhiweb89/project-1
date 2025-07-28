@@ -49,8 +49,8 @@ header {
 main {
     padding: 60px 20px;
     flex: 1;
-    background: url('/img/Veggies_new.png') left no-repeat,
-                url('/img/Sushi_replace.png') right no-repeat;
+    background: url('Veggies_new.png') left no-repeat,
+                url('Sushi_replace.png') right no-repeat;
     background-size: 300px;
     text-align: center;
 }
